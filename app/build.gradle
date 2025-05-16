@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.Draw.Main'
+    mainClass = 'org.draw.Main'
 }
 
 tasks.named('test') {
