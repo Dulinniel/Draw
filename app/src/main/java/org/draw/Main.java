@@ -18,10 +18,7 @@ public class Main
     String line = file.NextLine();
     while ( !line.equals(file.getCRLF()) )
     {
-      if ( !line.startsWith("#") )
-      {
-        factory.tokenize(line);
-      }
+      factory.tokenize(line);
       line = file.NextLine();
     }
     file.Close();
